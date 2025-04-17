@@ -153,7 +153,10 @@ header > menu a:hover {
     max-width: 450px;
     text-align: center;
     color: var(--cor-04);
-    
+}
+
+#HomeContent > h2:hover {
+    transform: scale(110%);
 }
 
 main {
