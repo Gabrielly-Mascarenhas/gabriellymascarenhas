@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor-01: ;
+    --cor-02: ;
+    --cor-03: ;
+}
+
+@media screen and (min-width: 810px) {
+
+    /* Menu No Desktop */
+    header {
+        padding: 50px 50px;
+        min-width: 800px;
+    }
+
+    span#burguer {
+        display: none;
+    }
+    
+    menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #home {
+        height: 600px;
+    }
+    
+    #HomeContent {
+        padding-top: 400px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #HomeContent h2 {
+        margin-left: 0px;
+    }
+
+    /* Sobre page */
+    section#sobre {
+        margin-top: 0px;
+        flex-flow: row nowrap;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    section#sobre h1 {
+        font-size: 2em;
+    }
+
+    section#sobre p {
+        font-size: 1.4em;
+    }
+
+    /* Serviços Page */
+
+    section#serviços article {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#serviços aside {
+        margin-right: 40px;
+        display: inline-block;
+        width: calc(100% / 3 - 40px);
+        height: 300px;
+    }
+}
+
+/* Review Page */
+
+
+/* Contato Page */
+    section#contato {
+        width: 633px;
+    }
+
+    section#contato h1 {
+        font-size: 2em;
+    }
+
+    section#contato p {
+        padding: 20px;
+    }
+
+    section#contato button {
+        height: 50px;
+        width: 200px;
+        font-size: 1.1em;
+    }
