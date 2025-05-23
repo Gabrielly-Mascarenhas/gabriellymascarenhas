@@ -67,7 +67,8 @@ header {
 }
 
 header > #logo {
-    margin-left: 10px;
+    margin-left: 15px;
+}
 
 header > #logo:hover {
     cursor: pointer;
@@ -247,8 +248,17 @@ section#serviços > p {
 }
 
 section#serviços h3 {
+    margin-top: 10px;
     color: #0e8f4f;
     text-align: center;
+}
+
+section#serviços h4 {
+    margin-top: 10px;
+    text-align: center;
+    color: #418d1b;
+    font-weight: normal;
+    font-size: 1.25em;
 }
 
 section#serviços article {
@@ -271,7 +281,7 @@ section#serviços aside {
     margin: 40px 0;
     width: 100%;
     height: 300px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
     max-width: 700px;
 
@@ -344,7 +354,7 @@ section#serviços span {
 
 section#reviews {
     padding: 15px;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 section#reviews h1 {
@@ -356,6 +366,7 @@ section#reviews h1 {
 
 section#reviews p {
     text-align: center;
+    font-size: 1.2em;
     color: #7ed851;
 }
 
