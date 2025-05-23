@@ -66,6 +66,9 @@ header {
 
 }
 
+header > #logo {
+    margin-left: 10px;
+
 header > #logo:hover {
     cursor: pointer;
     transform: scale(120%);
