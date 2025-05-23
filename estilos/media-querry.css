@@ -17,6 +17,7 @@
     header {
         padding: 50px 50px;
         min-width: 800px;
+        margin-left: 40px;
     }
 
     span#burguer {
@@ -29,6 +30,7 @@
 
     nav {
         display: block;
+        padding-right: 250px;
     }
 
     #home {
